@@ -1,0 +1,26 @@
+{
+    "name": "iniznet/wp-form-sheets",
+    "description": "Provide a form templates with Google Sheets integration.",
+    "authors": [
+        {
+            "name": "Iniznet",
+            "email": "iniznet@gmail.com",
+            "homepage": "https://niznet.my.id"
+        }
+    ],
+    "repositories": [              
+        {
+            "type": "git",
+            "url": "https://github.com/makeitworkpress/wp-custom-fields.git"
+        }             
+    ],
+    "require": {
+        "mehrshaddarzi/wp-trait": "^1.0",
+        "makeitworkpress/wp-custom-fields": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WpFormSheets\\": "src/"
+        }
+    }
+}
