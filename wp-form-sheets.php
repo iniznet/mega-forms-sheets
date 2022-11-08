@@ -31,10 +31,11 @@ class WpFormSheets extends \WPTrait\Plugin
 
 	public function instantiate()
 	{
-		$this->Admin = new \WpFormSheets\Admin($this);
-		$this->Form = new \WpFormSheets\Form($this);
-		$this->Sheet = new \WpFormSheets\Sheet($this);
-		$this->Shortcode = new \WpFormSheets\Shortcode($this);
+		$this->SettingsFields = new \WpFormSheets\Options\Settings($this->plugin);
+		$this->FormFields = new \WpFormSheets\Fields\Form($this->plugin);
+		// $this->Sheet = new \WpFormSheets\Sheet($this);
+		// $this->Form = new \WpFormSheets\Form($this);
+		// $this->Shortcode = new \WpFormSheets\Shortcode($this);
 	}
 }
 
