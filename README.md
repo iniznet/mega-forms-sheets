@@ -1,2 +1,2 @@
-# wp-form-sheets
-Provide a form templates with Google Sheets integration.
+# mega-forms-sheets
+Provide Google Sheets integration to Mega Forms

@@ -1,5 +1,5 @@
 {
-    "name": "iniznet/wp-form-sheets",
+    "name": "iniznet/mega-forms-sheets",
     "description": "Provide a form templates with Google Sheets integration.",
     "authors": [
         {
@@ -16,11 +16,12 @@
     ],
     "require": {
         "mehrshaddarzi/wp-trait": "^1.0",
-        "makeitworkpress/wp-custom-fields": "dev-master"
+        "makeitworkpress/wp-custom-fields": "dev-master",
+        "google/apiclient": "^2.12"
     },
     "autoload": {
         "psr-4": {
-            "WpFormSheets\\": "src/"
+            "MegaFormsSheets\\": "src/"
         }
     }
 }
